@@ -1,0 +1,172 @@
+{
+	"info": {
+		"_postman_id": "67824cf5-df3b-4c3b-81b5-94d84f47ae56",
+		"name": "new",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/tpPrueba",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "empresa",
+							"value": "area51",
+							"type": "text"
+						},
+						{
+							"key": "url",
+							"value": "https:/www.youtube.com",
+							"type": "text"
+						},
+						{
+							"key": "nombre",
+							"value": "fidel",
+							"type": "text"
+						},
+						{
+							"key": "year",
+							"value": "1998",
+							"type": "text"
+						},
+						{
+							"key": "rating",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/tpPrueba",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"tpPrueba"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/tpPrueba/new",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "empresa",
+							"value": "area51",
+							"type": "text"
+						},
+						{
+							"key": "url",
+							"value": "https:/www.youtube.com",
+							"type": "text"
+						},
+						{
+							"key": "nombre",
+							"value": "fidel",
+							"type": "text"
+						},
+						{
+							"key": "year",
+							"value": "1998",
+							"type": "text"
+						},
+						{
+							"key": "rating",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/tpPrueba/new",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"tpPrueba",
+						"new"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/tpPrueba/new",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/tpPrueba/new",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"tpPrueba",
+						"new"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
